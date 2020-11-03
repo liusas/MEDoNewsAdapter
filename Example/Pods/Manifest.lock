@@ -1,0 +1,16 @@
+PODS:
+  - MEDoNewsAdapter (0.1.0)
+
+DEPENDENCIES:
+  - MEDoNewsAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  MEDoNewsAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MEDoNewsAdapter: a241685a9a30f459f306c0ffc7e8868251b47d6c
+
+PODFILE CHECKSUM: ea8f68c8ad487913b7c03781c42b8b24892a3adf
+
+COCOAPODS: 1.9.3

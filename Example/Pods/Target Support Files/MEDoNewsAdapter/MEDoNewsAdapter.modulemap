@@ -1,0 +1,6 @@
+framework module MEDoNewsAdapter {
+  umbrella header "MEDoNewsAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

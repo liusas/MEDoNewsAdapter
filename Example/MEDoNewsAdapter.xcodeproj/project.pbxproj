@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3A6E755622D87C4BEF2A2BCB /* Pods-MEDoNewsAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDoNewsAdapter_Tests.release.xcconfig"; path = "Target Support Files/Pods-MEDoNewsAdapter_Tests/Pods-MEDoNewsAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3AAF154C4321121699EA3F53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3AAF154C4321121699EA3F53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C2FE52C68BE6CCE53783FF0 /* Pods-MEDoNewsAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDoNewsAdapter_Example.release.xcconfig"; path = "Target Support Files/Pods-MEDoNewsAdapter_Example/Pods-MEDoNewsAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MEDoNewsAdapter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEDoNewsAdapter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D06E36D0FA275904035F589 /* Pods-MEDoNewsAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEDoNewsAdapter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MEDoNewsAdapter_Tests/Pods-MEDoNewsAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA5EB24712BEAE6C1474DC4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA5EB24712BEAE6C1474DC4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E125338236FB4A9359BA70C8 /* Pods_MEDoNewsAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDoNewsAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0405BE9144054E715079479 /* MEDoNewsAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MEDoNewsAdapter.podspec; path = ../MEDoNewsAdapter.podspec; sourceTree = "<group>"; };
+		F0405BE9144054E715079479 /* MEDoNewsAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MEDoNewsAdapter.podspec; path = ../MEDoNewsAdapter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FBB7CC845DEDE91382CA1AFD /* Pods_MEDoNewsAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEDoNewsAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				7D06E36D0FA275904035F589 /* Pods-MEDoNewsAdapter_Tests.debug.xcconfig */,
 				3A6E755622D87C4BEF2A2BCB /* Pods-MEDoNewsAdapter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
